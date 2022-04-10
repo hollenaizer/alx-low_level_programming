@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int i;
+char alphabet;
 
-for (i=48; i <= 57; i++)
+for (alphabet = 122; alphabet >= 97; alphabet--)
 {
-putchar(i);
+putchar(alphabet);
 }
 
 putchar ('\n');
