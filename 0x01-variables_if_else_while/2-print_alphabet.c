@@ -21,5 +21,5 @@ putchar(lower_case);
 
 putchar('\n');
 
-returtn (0);
+return (0);
 }
