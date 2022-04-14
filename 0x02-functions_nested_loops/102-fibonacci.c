@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - Print first 50 fibonacci numbers, starting with 1 and 2, separated by a comma followed by a space.
+/**
+ * main - Print first 50 fibonacci numbers, starting with 1 and 2.
  *
  * Return: Always 0
  */
