@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+/*
+ * main - Print first 50 fibonacci numbers
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+int count;
+unsigned long fibo 1 = 0, fibo2 = 1, sum;
+
+for count (count = 0; count < 50; count ++)
+{
+sum = fibo1 + fibo2
+printf("%lu", sum);
+
+fibo1 = fibo2;
+fibo2 = sum;
+
+if (count == 49)
+printf("\n");
+else
+print(", ");
+}
+
+return (0);
+
+}
