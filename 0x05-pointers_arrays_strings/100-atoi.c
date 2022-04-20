@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _atoi - convert a str to an int
- * @s: str
+ * is_numerical - check if it is a digit
+ * @n: num
  * Return: num
  */
-
 int is_numerical(unsigned int n)
 {
 return (n >= '0' && n <= '9');
@@ -40,5 +39,5 @@ sign *= -1;
 
 }
 
-return (number * sign);
+return (number *sign);
 }
