@@ -2,7 +2,7 @@
 
 /**
  * swap_int - swap the values of two int a and b
- * @n: A Pointer to an int
+ * @a: A Pointer to an int
  * @b: B Pointer to an int
  * Return: void- Correct
  */
