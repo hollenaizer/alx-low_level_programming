@@ -5,6 +5,17 @@
  * Return: num
  */
 
+int is_numerical(unsigned int n)
+{
+return (n >= '0' && n <= '9');
+}
+
+/**
+ * _atoi - convert a str to an int
+ * @s: str
+ * Return: num
+ */
+
 int _atoi(char *s)
 {
 unsigned int number, i;
@@ -29,5 +40,5 @@ sign *= -1;
 
 }
 
-ireturn (number * sign);
+return (number * sign);
 }
