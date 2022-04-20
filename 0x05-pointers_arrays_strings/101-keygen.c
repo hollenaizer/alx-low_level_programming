@@ -3,9 +3,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * my task - code
  */
-
 int main(void)
 {
 int num;
