@@ -3,9 +3,9 @@
 
 /**
  *
- * print_diagsums - the sum of the two diagonals of a square matrix of integers
+ * print_diagsums - the sum of the two diagonals
  *
- * @a: 2d array of chars
+ * @a: 2d array of in types 
  *
  * @size: number matrix
  *
@@ -18,14 +18,16 @@ int i;
 int sum1, sum2;
 sum1 = 0;
 sum2 = 0;
-i = 0;
 
-while (i < size)
+for (i = 0; i < size; i++)
 {
-sum1 = sum1 + *(a + i * size + i);
-sum2 = sum2 + *(a + i * size + size - i - 1);
-i++;
+
+sum1 += a[i];
+sum2 += a[size - i - 1];
+a += size;
 }
-printf("%i, %i\n", sum1, sum2);
+
+printf("%d, ", sum1);
+printf("%d\n", sum2);
 
 }
