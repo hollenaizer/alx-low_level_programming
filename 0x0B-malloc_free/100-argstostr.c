@@ -37,10 +37,10 @@ for (a = 0; a < ac; a++)
 {
 for (b = 0; av[a][b] != '\0'; b++)
 {
-str[c] = av[a][
+str[c] = av[a][b];
+c++;
 }
 str[c] = '\n';
-
 c++;
 }
 return (str);
