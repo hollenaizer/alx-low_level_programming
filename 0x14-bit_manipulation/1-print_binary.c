@@ -21,7 +21,7 @@ _putchar('1');
 count++;
 }
 else if (count)
-_putchar
+_putchar('0');
 }
 if (!count)
 _putchar('0');
